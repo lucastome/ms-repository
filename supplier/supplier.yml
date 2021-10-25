@@ -2,8 +2,8 @@ spring:
   datasource:
     password: root
     username: root
-    url: jdbc:mysql://localhost:3306/supplier?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/supplier
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
